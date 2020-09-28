@@ -4,7 +4,7 @@
 
 // get var show_toc
 if (typeof show_toc == 'undefined') {
-    var show_toc = false; //default: false
+    var show_toc = true; //default: false
 };
 // hide toc background by default
 if (!show_toc){$("#toc").hide()};

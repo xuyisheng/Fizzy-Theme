@@ -124,7 +124,7 @@ $(window).scroll(function(){
 /*  Prismjs Line-numbers | 2019.07.05
 /*----------------------------------------------------*/
 if (typeof line_numbers == 'undefined') {
-  var line_numbers = false;
+  var line_numbers = true;
 };
 if (line_numbers) {
   $("pre").addClass("line-numbers");
