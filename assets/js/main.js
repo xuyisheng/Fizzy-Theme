@@ -111,20 +111,20 @@ $(window).scroll(function(){
 /*----------------------------------------------------*/
 /*  Hide / Show Credit Button | 2019.06.25
 /*----------------------------------------------------*/
-$(window).scroll(function(){
-  var pxCreditBtn = 400;
-  if($(window).scrollTop() < pxCreditBtn){
-    $("#fizzy-credit").fadeIn();
-  }
-  if($(window).scrollTop() >= pxCreditBtn){
-    $("#fizzy-credit").fadeOut();
-  }
-});
+// $(window).scroll(function(){
+//   var pxCreditBtn = 400;
+//   if($(window).scrollTop() < pxCreditBtn){
+//     $("#fizzy-credit").fadeIn();
+//   }
+//   if($(window).scrollTop() >= pxCreditBtn){
+//     $("#fizzy-credit").fadeOut();
+//   }
+// });
 /*----------------------------------------------------*/
 /*  Prismjs Line-numbers | 2019.07.05
 /*----------------------------------------------------*/
 if (typeof line_numbers == 'undefined') {
-  var line_numbers = true;
+  var line_numbers = false;
 };
 if (line_numbers) {
   $("pre").addClass("line-numbers");

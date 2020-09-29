@@ -23,6 +23,17 @@
             </ul>
             {{!-- author: bio --}}
             <div class="bio is-vcentered">{{bio}}</div>
+            <ul class="is-hidden-mobile" style="display: inline-flex;">
+                <a target="_blank">
+                    <img class="navbar-item" src="{{asset 'images/qrcode.jpg'}}"
+                        style="width: 200px;height: 180px;max-height: fit-content; max-width: fit-content;" />
+                </a>
+                <a target="_blank">
+                    <img class="navbar-item" src="{{asset 'images/qrcode_xys.jpeg'}}"
+                        style="width: 200px;height: 180px;max-height: fit-content; max-width: fit-content;" />
+                </a>
+            </ul>
+            <div class="social-share" data-sites="weibo, wechat, qzone, qq, douban"></div>
             {{!-- author: cta --}}
             <div class="is-size-6">
                 <a href="{{url}}" rel="nofollow"><strong class="has-text-grey-darker">{{t "See all posts by {name}" name=name}}</strong></a>

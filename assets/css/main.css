@@ -547,8 +547,9 @@ html,body{
 .post-wrap .post-content pre code {
 	display: block;
 	line-height: 1.5em;
-	font-size: 0.875rem !important;
+	font-size: 1rem !important;
 	font-weight: 400;
+	padding: 10px;
 	/* padding-bottom: 1.2em; */
 }
 
